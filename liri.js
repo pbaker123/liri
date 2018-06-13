@@ -3,7 +3,8 @@ require("dotenv").config();
 var preloads = { 
 	asciify: require("asciify"), 
 	keys: require("./keys.js"), 
-	cp: require("copy-paste"), fs: require("fs"), 
+	cp: require("copy-paste"), 
+	fs: require("fs"), 
 	inquirer: require("inquirer"), 
 	opn: require('opn'), 
 	request: require('request'),
@@ -80,14 +81,6 @@ var defaults = {
 	tweeterSelected: false,
 	line: "______________________________________________________________________________"
 };
-
-// Common function to print titles for each Liri command
-function titles(i, color) {
-	asciify(messages.titles[i], {font:"3-d",color:color}, function(err, res) {
-		console.log(res)
-		console.log("")
-	});
-}
 
 // Welcome Screen
 function liriBanner() {
