@@ -142,6 +142,7 @@ function tweeter() {
 	};
 };
 
+
 function tweeterInput() {
 	preloads.inquirer.prompt(inquiries.tweeterFunctions).then(function(data) {
 		defaults.tweeterMode = data.initializeTweeter;

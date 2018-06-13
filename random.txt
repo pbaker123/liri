@@ -1,3 +1,6 @@
 tweetRun,user
+tweetRun,home
 spottyRun,beat it
 moviefierRun,The Wizard of Oz
+spottyRun,Animal Instinct
+moviefierRun,Some Like it Hot
